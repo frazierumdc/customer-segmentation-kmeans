@@ -1,0 +1,31 @@
+{
+  "_source": "Original run (Google Colab, 2026), copied from the executed notebook outputs. Silhouette and inertia values were plotted, not printed, so they are not listed here.",
+  "rows": 2240,
+  "columns": 29,
+  "duplicate_rows": 0,
+  "missing_income_filled": 24,
+  "income_fill_value": 51381.5,
+  "implausible_ages_replaced": 3,
+  "age_fill_value": 57,
+  "marital_status_remapped": {"to Single": 3, "to Married": 4},
+  "n_features": 15,
+  "pca_variance_11_components": 0.9242,
+  "k": 2,
+  "segment_sizes": {"Segment A": 922, "Segment B": 1318},
+  "segment_profiles": {
+    "Segment A": {
+      "Age": 0.17, "Income": 0.77,
+      "MntWines": 0.86, "MntFruits": 0.72, "MntMeatProducts": 0.83,
+      "MntFishProducts": 0.74, "MntSweetProducts": 0.73, "MntGoldProds": 0.60,
+      "NumDealsPurchases": -0.18, "NumWebPurchases": 0.60, "NumCatalogPurchases": 0.88,
+      "NumStorePurchases": 0.84, "NumWebVisitsMonth": -0.68, "Kidhome": -0.71, "Teenhome": -0.12
+    },
+    "Segment B": {
+      "Age": -0.12, "Income": -0.54,
+      "MntWines": -0.60, "MntFruits": -0.51, "MntMeatProducts": -0.58,
+      "MntFishProducts": -0.52, "MntSweetProducts": -0.51, "MntGoldProds": -0.42,
+      "NumDealsPurchases": 0.12, "NumWebPurchases": -0.42, "NumCatalogPurchases": -0.62,
+      "NumStorePurchases": -0.59, "NumWebVisitsMonth": 0.47, "Kidhome": 0.49, "Teenhome": 0.09
+    }
+  }
+}
